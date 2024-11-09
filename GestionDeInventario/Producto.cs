@@ -19,7 +19,7 @@ namespace GestionDeInventario
 
         public void MostrarInformacion()
         {
-            Console.WriteLine($"Producto: {Nombre}, Precio: C${Precio}");
+            Console.WriteLine($"Producto: {Nombre}, Precio: ${Precio}");
         }
     }
 }
